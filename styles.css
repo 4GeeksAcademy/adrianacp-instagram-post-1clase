@@ -1,0 +1,88 @@
+body {
+background: rgba(138, 116, 197, 0.591);
+    margin: 0%;
+
+}
+div .container {
+    width: 600px;
+    margin: auto;
+}
+div .post{
+    background:white;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 5px;
+    
+}
+
+div .post  :first-child { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+      
+}
+
+div .usuario {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+div .usuario p {
+    margin: 0%;
+}
+
+div .icon {
+    display: flex;
+    margin-left: auto;
+}
+
+img {
+height: 40px;
+width: 40px;
+}
+
+
+div .post-img img {
+width: 100%;
+height: 100%;
+}
+
+
+div .post-icons {
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+div .post-icons i{
+    display: flex;
+    padding: 3px;
+    
+}
+
+div .post-body p {
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+div .post-body strong {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+div .texto-final p {
+    padding-bottom: 10px;
+
+}
+
+div .post-icons .boton-guardado {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    
+
+}
